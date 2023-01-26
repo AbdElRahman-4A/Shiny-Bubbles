@@ -1,0 +1,14 @@
+.headerSec1 {
+  /* background-image: url("../../img/k7.jpg"); */
+  background-color: rgba(0, 180, 255, 0.1);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.animate {
+  height: auto;
+  position: relative;
+  /* background-color: aqua; */
+}
