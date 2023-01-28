@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <>
       <section className="headerSec1 mb-5 " dir="rtl">
-        <div className="container">
+        <div className="container ms-0 ps-0 ">
           <div className="row d-flex align-items-center    position-relative ">
             {/* <div className='d-flex justify-content-center'>
               <img src={mlogo} alt="" className="logoF" />
@@ -27,7 +27,7 @@ export default function Header() {
                 خدمة غسيل السيارات بالبخار و بأفضل أدوات التنظيف عند باب بيتك
               </h3>
             </div>{" "}
-            <div className="col-md-7">
+            <div className="col-md-7 p-0">
               <div className=" animate">
                 <Lottie animationData={NewL} className="animate" />
               </div>

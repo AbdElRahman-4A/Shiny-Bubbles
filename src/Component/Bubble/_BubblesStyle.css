@@ -1,3 +1,8 @@
+.bubbles-container {
+  transition: all .5s ease-in-out;
+  opacity: 1;
+  overflow: hidden;
+}
 .bubbles {
   background: #00b4ff;
   color: #333;
@@ -5,7 +10,7 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #background-wrap {
@@ -18,7 +23,7 @@
 }
 
 
-.fadeout{
+/* .fadeout{
   animation: fadeOut 12s;
 }
 
@@ -29,7 +34,7 @@
   to{
     opacity: 0;
   }
-}
+} */
 
 /* KEYFRAMES */
 
@@ -62,28 +67,28 @@
 
 @-webkit-keyframes sideWays {
   0% {
-    margin-left: 0px;
+    transform: translateX(0px);
   }
   100% {
-    margin-left: 50px;
+    transform: translateX(50px);
   }
 }
 
 @-moz-keyframes sideWays {
   0% {
-    margin-left: 0px;
+    transform: translateX(0px);
   }
   100% {
-    margin-left: 50px;
+    transform: translateX(50px);
   }
 }
 
 @keyframes sideWays {
   0% {
-    margin-left: 0px;
+    transform: translateX(0px);
   }
   100% {
-    margin-left: 50px;
+    transform: translateX(50px);
   }
 }
 
@@ -865,9 +870,9 @@
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
     inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
 
-  height: 200px;
+  height: 150px;
   position: absolute;
-  width: 200px;
+  width: 150px;
 }
 
 .bubble:after {
@@ -920,8 +925,8 @@
   box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
 
   content: "";
-  height: 180px;
+  height: 120px;
   left: 10px;
   position: absolute;
-  width: 180px;
+  width: 120px;
 }

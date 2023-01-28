@@ -8,28 +8,25 @@ import Bubbles from "../Bubble/Bubbles";
 import React, { useState, useEffect } from "react";
 
 export default function Home() {
-  const [lounding, setLounding] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLounding(true);
+    setLoading(true);
     setTimeout(() => {
-      setLounding(false);
-    }, 5000);
+      setLoading(false);
+    }, 3000);
   }, []);
   return (
     <>
-      {lounding ? (
-        <Bubbles />
-      ) : (
-        <div>
-          <Header />
-          <Packages />
-          <Gallery />
-          <AboutUs />
-          <Contact />
-          <Footer />
-        </div>
-      )}
+      <Bubbles visible={loading} />
+      <div style={{ transition: "all .5s ease-in-out", opacity: "0" }} className={`${loading ? '' : 'opacity-100'}`}>
+        <Header />
+        <Packages />
+        <Gallery />
+        <AboutUs />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }
