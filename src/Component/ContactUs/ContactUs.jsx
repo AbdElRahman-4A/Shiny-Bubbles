@@ -7,7 +7,7 @@ import EmailIcon from "../../img/email.png";
 export default function ContactUs() {
   return (
     <>
-      <section className="cotactSec">
+      <section className="cotactSec" id="contact">
         <div className="container">
           <div className="row">
             <div className="col-md-6 p-5" dir="rtl">

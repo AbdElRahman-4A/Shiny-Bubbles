@@ -5,7 +5,7 @@ import "./_AboutStyle.css";
 export default function AboutUs() {
   return (
     <>
-      <section className="aboutus">
+      <section className="aboutus" id="about">
         <div className="container p-5">
           <div className="row d-flex  align-items-center  m-auto ">
         

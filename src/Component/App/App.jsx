@@ -4,6 +4,7 @@ import Layout from "../../Component/Layout/Layout";
 import Home from "../../Component/Home/Home";
 import NotFound from "../../Component/NotFound/NotFound";
 import { Offline, Online } from "react-detect-offline";
+import AboutUs from "../AboutUs/AboutUs";
 
 function App() {
   const routes = createBrowserRouter([

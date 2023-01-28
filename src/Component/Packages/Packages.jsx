@@ -7,7 +7,7 @@ import S3 from "../../img/S6.png";
 export default function Packages() {
   return (
     <>
-      <section className="packSec">
+      <section className="packSec" id="pack">
         <div className="container">
           <div className="row">
             <div className="col-md-6 m-auto">
@@ -42,7 +42,7 @@ export default function Packages() {
                 </ul>
                 <div className=" btnPrice  bg-info rounded-3 text-center   p-2">
                   <div className="">
-                    <h3 className="text-light">السعر : 65 ريال</h3>
+                    <h3 className="text-light m-auto">السعر : 65 ريال</h3>
                   </div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default function Packages() {
                 </ul>
                 <div className=" btnPrice  bg-info rounded-3 text-center  p-2">
                   <div className="">
-                    <h3 className="text-light">السعر : 150 ريال</h3>
+                    <h3 className="text-light m-auto">السعر : 150 ريال</h3>
                   </div>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function Packages() {
                 </ul>
                 <div className=" btnPrice  bg-info rounded-3 text-center  p-2">
                   <div className="">
-                    <h3 className="text-light">السعر : 179 ريال</h3>
+                    <h3 className="text-light m-auto">السعر : 179 ريال</h3>
                   </div>
                 </div>
               </div>

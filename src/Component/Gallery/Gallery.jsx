@@ -20,7 +20,7 @@ export default function Gallery() {
 
   return (
     <>
-      <section className="gallery text-center">
+      <section className="gallery text-center" id="gallery">
         <div className="container">
           <div className="row">
             <div className="col-md-8 m-auto">

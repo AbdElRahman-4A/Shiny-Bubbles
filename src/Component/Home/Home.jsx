@@ -6,6 +6,7 @@ import Contact from "../ContactUs/ContactUs";
 import Footer from "../Footer/Footer";
 import Bubbles from "../Bubble/Bubbles";
 import React, { useState, useEffect } from "react";
+import Navbar from "../Navbar/Navbar";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -20,6 +21,7 @@ export default function Home() {
     <>
       <Bubbles visible={loading} />
       <div style={{ transition: "all .5s ease-in-out", opacity: "0" }} className={`${loading ? '' : 'opacity-100'}`}>
+        {/* <Navbar/> */}
         <Header />
         <Packages />
         <Gallery />

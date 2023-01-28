@@ -1,15 +1,16 @@
 import React from "react";
 import "./_HeaderStyle.css";
-// import s5 from "../../img/beautifu.jpg";
 import mlogo from "../../img/Mainlogo.png";
 
 import Lottie from "lottie-react";
 import NewL from "../../animation/lf20_xvw0ldqd.json";
+import Navbar from "../Navbar/Navbar";
 
 export default function Header() {
   return (
     <>
       <section className="headerSec1 mb-5 " dir="rtl">
+        <Navbar/>
         <div className="container ms-0 ps-0 ">
           <div className="row d-flex align-items-center    position-relative ">
             {/* <div className='d-flex justify-content-center'>
